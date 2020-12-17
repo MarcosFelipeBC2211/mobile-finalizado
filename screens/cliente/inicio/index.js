@@ -30,6 +30,46 @@ export default function InicioCliente(props){
                         }}
                         icon={MarkerIcon}
                     />
+                    <Marker
+                    onPress={() => props.navigation.navigate('Solicitacao')}
+                        coordinate={{
+                            latitude: -23.5287338,
+                            longitude: -46.9301818,
+                        }}
+                        icon={MarkerIcon}
+                    />
+                    <Marker
+                    onPress={() => props.navigation.navigate('Solicitacao')}
+                        coordinate={{
+                            latitude: -23.5287338,
+                            longitude: -46.9101818,
+                        }}
+                        icon={MarkerIcon}
+                    />
+                    <Marker
+                    onPress={() => props.navigation.navigate('Solicitacao')}
+                        coordinate={{
+                            latitude: -23.5387338,
+                            longitude: -46.9201818,
+                        }}
+                        icon={MarkerIcon}
+                    />
+                    <Marker
+                    onPress={() => props.navigation.navigate('Solicitacao')}
+                        coordinate={{
+                            latitude: -23.5484338,
+                            longitude: -46.9231918,
+                        }}
+                        icon={MarkerIcon}
+                    />
+                    <Marker
+                    onPress={() => props.navigation.navigate('Solicitacao')}
+                        coordinate={{
+                            latitude: -23.5486338,
+                            longitude: -46.9481918,
+                        }}
+                        icon={MarkerIcon}
+                    />
                 </MapView>
             </View>
             <View style={{width: "100%", height: 50, backgroundColor: "#221F3B", display: "flex", flexDirection: "row"}}>
